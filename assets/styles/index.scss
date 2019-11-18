@@ -1,1 +1,123 @@
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+border: 5vh solid #b86a21;
+// background: linear-gradient(to right, red, purple);
+}
+
+.message {
+    margin: 0;
+    // background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.green {
+  background-color: green;
+  height: 90vh;
+}
+
+.red {
+  background-color: red;
+}
+
+.deepblue {
+  background-color: #102d57;
+}
+
+.weather {
+  background: url(weather.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myButton {
+	// box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	// background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color: red;
+	border-radius:10px;
+	border:6px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.inp {
+    font-size: 2em;
+    width: 10em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #b86a21;
+    // padding: 5px 15px;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    margin-right: 1vh;
+ }
+
+ .wordColorWhite {
+   color: white;
+ }
+
+ .wordColorOrange {
+   color: #b86a21;
+ }
+
+ ::placeholder {
+  color: white;
+  // opacity: 1; /* Firefox */
+}
+
+.information {
+  padding-top: 10vh;
+  padding-left: 10vh;
+  // box-shadow: 10px 5px 5px red;
+}
+
+// .shadow {
+//   box-shadow: 10px 5px 5px red;
+// }
+
+.infor {
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  font-size: 2em;
+  border-bottom: 1px solid grey;
+  width: 15em;
+}
+
+.infor-last {
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  font-size: 2em;
+  // border-bottom: 1px solid #b86a21;
+  width: 15em;
+}
+
+.title {
+  font-size: 5em;
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 7px;
+}
+
+.subtitle {
+  font-size: 2em;
+  font-family: 'Courgette', serif;
+}
