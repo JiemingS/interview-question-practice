@@ -23,15 +23,15 @@
           </div>
           <div class="col-sm-7 deepblue">
             <section class='information'>
-              <form class='search' id=''>
-                <input class='inp' type="text" name="" placeholder='Manchester' required>
-                <input class='inp' type="texy" name="" placeholder='UK' required>
-                <button class="myButton">Get Weather</button>
+              <form class='search' id='getMyWeather'>
+                <input id='location1' class='inp' type="text" name="" placeholder='placeName' required>
+                <input id='location2' class='inp' type="texy" name="" placeholder='placeCode' required>
+                <button class="myButton" id="">Get Weather</button>
               </form>
-              <div class='wordColorWhite infor'><span class='wordColorOrange'>Location: </span>Manchester, GB</div>
-              <div class='wordColorWhite infor'><span class='wordColorOrange'>Temperature: </span>0.27</div>
-              <div class='wordColorWhite infor'><span class='wordColorOrange'>Humidity: </span>93%</div>
-              <div class='wordColorWhite infor-last'><span class='wordColorOrange'>Conditions: </span>Mist</div>
+              <div class='wordColorWhite infor'><span class='wordColorOrange'>Location: </span><span id='responseLocation'></span></div>
+              <div class='wordColorWhite infor'><span class='wordColorOrange'>Temperature: </span><span id='responseTemp'></span></div>
+              <div class='wordColorWhite infor'><span class='wordColorOrange'>Humidity: </span><span id='responseHumi'></span></div>
+              <div class='wordColorWhite infor-last'><span class='wordColorOrange'>Conditions: </span><span id='responseCon'></span></div>
             </section>
           </div>
         </div>

@@ -64,7 +64,7 @@ background-color: #b86a21;
 }
 
 .inp {
-    font-size: 2em;
+    font-size: 30px;
     width: 15vw;
     border-top: none;
     border-left: none;
@@ -86,7 +86,7 @@ background-color: #b86a21;
  }
 
  ::placeholder {
-  color: white;
+  color: grey;
   // opacity: 1; /* Firefox */
 }
 
@@ -103,7 +103,7 @@ background-color: #b86a21;
 .infor {
   padding-top: 5vh;
   padding-bottom: 3vh;
-  font-size: 2em;
+  font-size: 30px;
   border-bottom: 1px solid grey;
   width: 15em;
 }
@@ -111,7 +111,7 @@ background-color: #b86a21;
 .infor-last {
   padding-top: 5vh;
   padding-bottom: 3vh;
-  font-size: 2em;
+  font-size: 30px;
   // border-bottom: 1px solid #b86a21;
   width: 15em;
 }

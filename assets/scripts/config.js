@@ -1,16 +1,11 @@
 'use strict'
 
-let apiUrl
 const apiUrls = {
-  production: '<replace-with-heroku-url>',
-  development: 'http://localhost:4741'
+  production: 'api.openweathermap.org/data/2.5/weather?q=',
+  development: 'api.openweathermap.org/data/2.5/weather?q='
 }
 
-if (window.location.hostname === 'localhost') {
-  apiUrl = apiUrls.development
-} else {
-  apiUrl = apiUrls.production
-}
+const apiUrl = apiUrls.production
 
 module.exports = {
   apiUrl
