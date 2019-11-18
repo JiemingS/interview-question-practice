@@ -9,10 +9,12 @@ const getWeatherSuccess = function (responseData) {
   $('#responseTemp').html(responseData.main.temp)
   $('#responseHumi').html(responseData.main.humidity + '%')
   $('#responseCon').html(responseData.weather[0].main)
+  $('#getMyWeather').trigger('reset')
 }
 
 const getWeatherFailure = function (responseData) {
-
+  $('#failureMessage').modal()
+  $('#getMyWeather').trigger('reset')
 }
 
 module.exports = {

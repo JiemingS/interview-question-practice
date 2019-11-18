@@ -24,8 +24,8 @@
           <div class="col-sm-7 deepblue">
             <section class='information'>
               <form class='search' id='getMyWeather'>
-                <input id='location1' class='inp' type="text" name="" placeholder='placeName' required>
-                <input id='location2' class='inp' type="texy" name="" placeholder='placeCode' required>
+                <input id='location1' class='inp' type="text" name="" placeholder='city' required>
+                <input id='location2' class='inp' type="texy" name="" placeholder='country' required>
                 <button class="myButton" id="">Get Weather</button>
               </form>
               <div class='wordColorWhite infor'><span class='wordColorOrange'>Location: </span><span id='responseLocation'></span></div>
@@ -33,6 +33,26 @@
               <div class='wordColorWhite infor'><span class='wordColorOrange'>Humidity: </span><span id='responseHumi'></span></div>
               <div class='wordColorWhite infor-last'><span class='wordColorOrange'>Conditions: </span><span id='responseCon'></span></div>
             </section>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="failureMessage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ohhh !</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Sorry , maybe the place doesn't exist. Please try a new one.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
           </div>
         </div>
       </div>
